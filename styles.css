@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'RTF';
+  src: url('./font.ttf') format('truetype');
+}
+
+html, body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.counter {
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  align-items: center;
+  background-color: #101010;
+  justify-content: center;
+  border-radius: 15vh;
+}
+
+.counter__logo {
+  width: 15vw;
+  height: 100%;
+  background-image: url('./youtube-logo.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+.counter__amount {
+  color: #f5f5f5;
+  font-family: 'RTF';
+  font-size: 10vw;
+  margin-left: 2vw; 
+}
+
+
+
